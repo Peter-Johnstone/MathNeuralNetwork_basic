@@ -10,7 +10,6 @@ def get_answer(x):
 
 ### Structure: input - > x - > 1 hidden layer -> output
 
-
 def forward_propagate(weight, bias, x):
     return weight*x + bias
 
