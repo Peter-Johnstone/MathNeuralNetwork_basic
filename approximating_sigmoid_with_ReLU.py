@@ -34,8 +34,6 @@ def get_initial_weights_and_biases():
 
 def forward_propagate(x, w1, b1, w2, b2):
 
-    # there are multiple w1s so we have to sum them.
-
     inputs = np.full(HIDDEN_NEURONS, x)
     z1 = inputs*w1 + b1
     a1 = ReLU(z1)
